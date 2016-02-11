@@ -19,13 +19,13 @@ namespace Insertar_Orden_y_Eliminar {
 		{
 			InitializeComponent();
 			//
-			//TODO: agregar código de constructor aquí
+			//TODO: agregar cÃ³digo de constructor aquÃ­
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Limpiar los recursos que se estén utilizando.
+		/// Limpiar los recursos que se estÃ©n utilizando.
 		/// </summary>
 		~Form1()
 		{
@@ -44,14 +44,14 @@ namespace Insertar_Orden_y_Eliminar {
 
 	private:
 		/// <summary>
-		/// Variable del diseñador requerida.
+		/// Variable del diseÃ±ador requerida.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Método necesario para admitir el Diseñador. No se puede modificar
-		/// el contenido del método con el editor de código.
+		/// MÃ©todo necesario para admitir el DiseÃ±ador. No se puede modificar
+		/// el contenido del mÃ©todo con el editor de cÃ³digo.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -196,8 +196,7 @@ namespace Insertar_Orden_y_Eliminar {
 						P=P->link;
 					}
 				}
-				if (P==PTR)
-				{
+				if (P==PTR){
 					Q->link=PTR;
 					PTR=Q;
 				}else{

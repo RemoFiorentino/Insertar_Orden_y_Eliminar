@@ -151,73 +151,15 @@ namespace Insertar_Orden_y_Eliminar {
 			this->PerformLayout();
 
 		}
-		
-		ref struct Nodo{
-			String^ info;
-			Nodo^ link;
-		};
-		static Nodo^ PTR = nullptr;
+		//Estructura de la Lista
 
 		void Eliminar(String^ dato){
-			Nodo^ P = gcnew Nodo();
-			Nodo^ antP = gcnew Nodo();
-			P=PTR;
-			antP=nullptr;
-			while(P != nullptr && P->info != dato){
-				antP = P;
-				P=P->link;
-			}
-			if(P->info == dato){
-				if (P==PTR)
-				{
-					PTR = P->link;
-					P->link=nullptr;
-				}else{
-					antP->link = P->link;
-					P->link = nullptr;
-				}
-				P=nullptr;
-			}
 		}
 
 		void insertar(String^ elem){
-			Nodo^ Q = gcnew Nodo();
-			Q->info = elem;
-			if (PTR==nullptr){
-				PTR=Q;
-			}else{
-				Nodo^ AntP=nullptr;
-				Nodo^ P=PTR;
-				while (P !=nullptr){
-					if (P->info->CompareTo(Q->info) ==1){
-						break;
-					}else{
-						AntP=P;
-						P=P->link;
-					}
-				}
-				if (P==PTR)
-				{
-					Q->link=PTR;
-					PTR=Q;
-				}else{
-					Q->link=P;
-					AntP->link=Q;
-				}
-			}
 		}
 
 		Boolean Existe(String^ elem){
-			Nodo^ Q = gcnew Nodo();
-			Q=PTR;
-			while(Q != nullptr && Q->info->CompareTo(elem) != 0){
-				Q=Q->link;
-			}
-			if(Q != nullptr){
-				return true;
-			}else{
-				return false;
-			}
 		}
 
 		void mostrar(){

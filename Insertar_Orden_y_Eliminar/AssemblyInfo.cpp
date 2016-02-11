@@ -11,12 +11,12 @@ using namespace System::Security::Permissions;
 // conjunto de atributos. Cambie estos atributos para modificar la información
 // asociada con un ensamblado.
 //
-[assembly:AssemblyTitleAttribute("Sesion_13_08_2014")];
+[assembly:AssemblyTitleAttribute("Insertar_Orden_y_Eliminar")];
 [assembly:AssemblyDescriptionAttribute("")];
 [assembly:AssemblyConfigurationAttribute("")];
-[assembly:AssemblyCompanyAttribute("")];
-[assembly:AssemblyProductAttribute("Sesion_13_08_2014")];
-[assembly:AssemblyCopyrightAttribute("Copyright (c)  2014")];
+[assembly:AssemblyCompanyAttribute("Microsoft")];
+[assembly:AssemblyProductAttribute("Insertar_Orden_y_Eliminar")];
+[assembly:AssemblyCopyrightAttribute("Copyright (c) Microsoft 2016")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 
@@ -28,7 +28,7 @@ using namespace System::Security::Permissions;
 //      Número de compilación
 //      Revisión
 //
-// Puede especificar todos los valores o usar los valores predeterminados de versión de compilación y de revisión
+// Puede especificar todos los valores o usar los valores predeterminados de número de compilación y de revisión
 // mediante el asterisco ('*'), como se muestra a continuación:
 
 [assembly:AssemblyVersionAttribute("1.0.*")];

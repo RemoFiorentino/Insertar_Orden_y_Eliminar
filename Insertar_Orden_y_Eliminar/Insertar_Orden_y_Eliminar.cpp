@@ -1,9 +1,9 @@
-// Sesion_13_08_2014.cpp: archivo de proyecto principal.
+// Insertar_Orden_y_Eliminar.cpp: archivo de proyecto principal.
 
 #include "stdafx.h"
 #include "Form1.h"
 
-using namespace Sesion_13_08_2014;
+using namespace Insertar_Orden_y_Eliminar;
 
 [STAThreadAttribute]
 int main(array<System::String ^> ^args)

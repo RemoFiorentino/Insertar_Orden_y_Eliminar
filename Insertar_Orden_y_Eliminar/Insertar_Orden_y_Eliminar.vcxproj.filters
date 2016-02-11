@@ -15,19 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ReadMe.txt" />
-    <None Include="app.ico">
-      <Filter>Archivos de recursos</Filter>
-    </None>
+    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Insertar_Orden_y_Eliminar.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
     <ClCompile Include="AssemblyInfo.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Eliminar e insercion en orden.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,8 +45,8 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resX">
+    <Image Include="app.ico">
       <Filter>Archivos de recursos</Filter>
-    </EmbeddedResource>
+    </Image>
   </ItemGroup>
 </Project>

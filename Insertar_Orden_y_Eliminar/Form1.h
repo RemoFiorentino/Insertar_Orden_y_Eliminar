@@ -188,6 +188,8 @@ namespace Insertar_Orden_y_Eliminar {
 			}else{
 				Nodo^ AntP=nullptr;
 				Nodo^ P=PTR;
+				P = PTR;
+				antP = nullptr;
 				while (P !=nullptr){
 					if (P->info->CompareTo(Q->info) ==1){
 						break;
